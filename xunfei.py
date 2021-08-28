@@ -50,8 +50,8 @@ class SliceIdGenerator:
         self.__ch = ch
         return self.__ch
 
-appid="***"
-secret_key="*****"
+appid="8966eda5"
+secret_key="d2378a199983b9b6c9d20805f79e8109"
 
 def start(upload_file_path,taskid_re=False):
     def gene_params(apiname, taskid=None, slice_id=None):
